@@ -1,5 +1,7 @@
 CARDS = ["King", "Queen", "Jack"]
+
 ACTIONS = ["c", "b", "f"] #Check or bet
+
 
 class KuhnState:
 
@@ -23,6 +25,8 @@ def is_terminal(history):
 
 
 def get_utility(history, cards):
+
+    """Game Logic"""
 
     card_ranks = {"King": 2, "Queen": 1, "Jack": 0}
 
