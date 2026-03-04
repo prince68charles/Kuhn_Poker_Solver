@@ -1,4 +1,5 @@
 CARDS = ["King", "Queen", "Jack"]
+
 ACTIONS = ["c", "b", "f"] #Check or bet
 
 class KuhnState:
